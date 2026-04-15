@@ -28,10 +28,10 @@
 
 | Task ID  | Description                                      | Status  | Dependencies                | Task File |
 |----------|--------------------------------------------------|---------|-----------------------------|-----------|
-| TASK-001 | Create folder structure                          | pending | none                        | [TASK-001](TASK-001-create-folder-structure.md) |
-| TASK-002 | Define Product and ProductCategory domain models | pending | TASK-001                    | [TASK-002](TASK-002-domain-models.md) |
-| TASK-003 | Define ProductRepositoryProtocol                 | pending | TASK-002                    | [TASK-003](TASK-003-repository-protocol.md) |
-| TASK-004 | Create Core JSONLoader utility                   | pending | TASK-001                    | [TASK-004](TASK-004-core-json-loader.md) |
+| TASK-001 | Create folder structure                          | done    | none                        | [TASK-001](TASK-001-create-folder-structure.md) |
+| TASK-002 | Define Product and ProductCategory domain models | done    | TASK-001                    | [TASK-002](TASK-002-domain-models.md) |
+| TASK-003 | Define ProductRepositoryProtocol                 | done    | TASK-002                    | [TASK-003](TASK-003-repository-protocol.md) |
+| TASK-004 | Create Core JSONLoader utility                   | done    | TASK-001                    | [TASK-004](TASK-004-core-json-loader.md) |
 | TASK-005 | Create ProductDTO with toDomain mapping          | pending | TASK-002                    | [TASK-005](TASK-005-product-dto.md) |
 | TASK-006 | Create products.json mock data                   | pending | TASK-001                    | [TASK-006](TASK-006-products-json.md) |
 | TASK-007 | Create LocalProductDataSource                    | pending | TASK-004, TASK-005          | [TASK-007](TASK-007-local-product-data-source.md) |
