@@ -22,6 +22,31 @@
    - Mark the task as **done** in this file
    - Move to the next task
 
+### Prompt for running Task
+10. Whenever running the task, use the following prompt
+
+Read these files first:
+- CLAUDE.md
+- PRODUCT_SPEC.md
+- IMPLEMENTATION_PLAN.md
+
+Then identify the first pending task.
+
+Read that task file and implement only that task.
+
+Rules:
+- Do not work on any other task
+- Do not anticipate future tasks
+- Stay strictly within the scope of the selected task
+- Respect out-of-scope items in the task file
+- After implementation, do not mark the task as done yet
+
+Return:
+1. which task you executed
+2. files created/changed
+3. what was implemented
+4. anything that needs my review before approval
+
 ---
 
 ## Task List
@@ -35,7 +60,7 @@
 | TASK-005 | Create ProductDTO with toDomain mapping          | done    | TASK-002                    | [TASK-005](TASK-005-product-dto.md) |
 | TASK-006 | Create products.json mock data                   | done    | TASK-001                    | [TASK-006](TASK-006-products-json.md) |
 | TASK-007 | Create LocalProductDataSource                    | done    | TASK-004, TASK-005          | [TASK-007](TASK-007-local-product-data-source.md) |
-| TASK-008 | Implement ProductRepository                      | pending | TASK-003, TASK-007          | [TASK-008](TASK-008-product-repository.md) |
+| TASK-008 | Implement ProductRepository                      | done    | TASK-003, TASK-007          | [TASK-008](TASK-008-product-repository.md) |
 | TASK-009 | Implement SearchProductsUseCase                  | pending | TASK-002                    | [TASK-009](TASK-009-search-products-use-case.md) |
 | TASK-010 | Implement GroupProductsByCategoryUseCase          | pending | TASK-002                    | [TASK-010](TASK-010-group-products-use-case.md) |
 | TASK-011 | Create ProductListViewModel                      | pending | TASK-008, TASK-009, TASK-010 | [TASK-011](TASK-011-product-list-viewmodel.md) |
