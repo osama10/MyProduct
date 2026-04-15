@@ -33,7 +33,7 @@
 | TASK-003 | Define ProductRepositoryProtocol                 | done    | TASK-002                    | [TASK-003](TASK-003-repository-protocol.md) |
 | TASK-004 | Create Core JSONLoader utility                   | done    | TASK-001                    | [TASK-004](TASK-004-core-json-loader.md) |
 | TASK-005 | Create ProductDTO with toDomain mapping          | done    | TASK-002                    | [TASK-005](TASK-005-product-dto.md) |
-| TASK-006 | Create products.json mock data                   | pending | TASK-001                    | [TASK-006](TASK-006-products-json.md) |
+| TASK-006 | Create products.json mock data                   | done    | TASK-001                    | [TASK-006](TASK-006-products-json.md) |
 | TASK-007 | Create LocalProductDataSource                    | pending | TASK-004, TASK-005          | [TASK-007](TASK-007-local-product-data-source.md) |
 | TASK-008 | Implement ProductRepository                      | pending | TASK-003, TASK-007          | [TASK-008](TASK-008-product-repository.md) |
 | TASK-009 | Implement SearchProductsUseCase                  | pending | TASK-002                    | [TASK-009](TASK-009-search-products-use-case.md) |
