@@ -6,8 +6,69 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A901AC12F9004700006B5D6 /* PRODUCT_SPEC.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC02F9004600006B5D6 /* PRODUCT_SPEC.md */; };
+		4A901AC32F9004D40006B5D6 /* SPEC.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC22F9004CE0006B5D6 /* SPEC.md */; };
+		4A901AC52F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC42F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md */; };
+		4A901AE12F900EA80006B5D6 /* TASK-019-product-images.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD92F900EA80006B5D6 /* TASK-019-product-images.md */; };
+		4A901AE22F900EA80006B5D6 /* TASK-024-product-repository-tests.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADE2F900EA80006B5D6 /* TASK-024-product-repository-tests.md */; };
+		4A901AE32F900EA80006B5D6 /* TASK-005-product-dto.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACB2F900EA80006B5D6 /* TASK-005-product-dto.md */; };
+		4A901AE42F900EA80006B5D6 /* TASK-008-product-repository.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACE2F900EA80006B5D6 /* TASK-008-product-repository.md */; };
+		4A901AE52F900EA80006B5D6 /* TASK-015-product-detail-viewmodel.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD52F900EA80006B5D6 /* TASK-015-product-detail-viewmodel.md */; };
+		4A901AE62F900EA80006B5D6 /* TASK-003-repository-protocol.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC92F900EA80006B5D6 /* TASK-003-repository-protocol.md */; };
+		4A901AE72F900EA80006B5D6 /* TASK-011-product-list-viewmodel.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD12F900EA80006B5D6 /* TASK-011-product-list-viewmodel.md */; };
+		4A901AE82F900EA80006B5D6 /* TASK-012-product-row-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD22F900EA80006B5D6 /* TASK-012-product-row-view.md */; };
+		4A901AE92F900EA80006B5D6 /* TASK-022-group-use-case-tests.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADC2F900EA80006B5D6 /* TASK-022-group-use-case-tests.md */; };
+		4A901AEA2F900EA80006B5D6 /* TASK-017-content-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD72F900EA80006B5D6 /* TASK-017-content-view.md */; };
+		4A901AEB2F900EA80006B5D6 /* TASK-010-group-products-use-case.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD02F900EA80006B5D6 /* TASK-010-group-products-use-case.md */; };
+		4A901AEC2F900EA80006B5D6 /* TASK-004-core-json-loader.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACA2F900EA80006B5D6 /* TASK-004-core-json-loader.md */; };
+		4A901AED2F900EA80006B5D6 /* TASK-021-search-use-case-tests.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADB2F900EA80006B5D6 /* TASK-021-search-use-case-tests.md */; };
+		4A901AEE2F900EA80006B5D6 /* TASK-025-viewmodel-tests.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADF2F900EA80006B5D6 /* TASK-025-viewmodel-tests.md */; };
+		4A901AEF2F900EA80006B5D6 /* TASK-013-product-section-header-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD32F900EA80006B5D6 /* TASK-013-product-section-header-view.md */; };
+		4A901AF02F900EA80006B5D6 /* TASK-014-product-list-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD42F900EA80006B5D6 /* TASK-014-product-list-view.md */; };
+		4A901AF12F900EA80006B5D6 /* TASK-006-products-json.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACC2F900EA80006B5D6 /* TASK-006-products-json.md */; };
+		4A901AF22F900EA80006B5D6 /* TASK-020-build-and-verify.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADA2F900EA80006B5D6 /* TASK-020-build-and-verify.md */; };
+		4A901AF32F900EA80006B5D6 /* MASTER.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC62F900EA80006B5D6 /* MASTER.md */; };
+		4A901AF42F900EA80006B5D6 /* TASK-018-app-entry-point.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD82F900EA80006B5D6 /* TASK-018-app-entry-point.md */; };
+		4A901AF52F900EA80006B5D6 /* TASK-009-search-products-use-case.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACF2F900EA80006B5D6 /* TASK-009-search-products-use-case.md */; };
+		4A901AF62F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ADD2F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md */; };
+		4A901AF72F900EA80006B5D6 /* TASK-002-domain-models.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC82F900EA80006B5D6 /* TASK-002-domain-models.md */; };
+		4A901AF82F900EA80006B5D6 /* TASK-007-local-product-data-source.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACD2F900EA80006B5D6 /* TASK-007-local-product-data-source.md */; };
+		4A901AF92F900EA80006B5D6 /* TASK-016-product-detail-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD62F900EA80006B5D6 /* TASK-016-product-detail-view.md */; };
+		4A901AFA2F900EA80006B5D6 /* TASK-001-create-folder-structure.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC72F900EA80006B5D6 /* TASK-001-create-folder-structure.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4A901AB22F9000C10006B5D6 /* MyProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A901AC02F9004600006B5D6 /* PRODUCT_SPEC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRODUCT_SPEC.md; sourceTree = "<group>"; };
+		4A901AC22F9004CE0006B5D6 /* SPEC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SPEC.md; sourceTree = "<group>"; };
+		4A901AC42F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IMPLEMENTATION_PLAN.md; sourceTree = "<group>"; };
+		4A901AC62F900EA80006B5D6 /* MASTER.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MASTER.md; sourceTree = "<group>"; };
+		4A901AC72F900EA80006B5D6 /* TASK-001-create-folder-structure.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-001-create-folder-structure.md"; sourceTree = "<group>"; };
+		4A901AC82F900EA80006B5D6 /* TASK-002-domain-models.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-002-domain-models.md"; sourceTree = "<group>"; };
+		4A901AC92F900EA80006B5D6 /* TASK-003-repository-protocol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-003-repository-protocol.md"; sourceTree = "<group>"; };
+		4A901ACA2F900EA80006B5D6 /* TASK-004-core-json-loader.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-004-core-json-loader.md"; sourceTree = "<group>"; };
+		4A901ACB2F900EA80006B5D6 /* TASK-005-product-dto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-005-product-dto.md"; sourceTree = "<group>"; };
+		4A901ACC2F900EA80006B5D6 /* TASK-006-products-json.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-006-products-json.md"; sourceTree = "<group>"; };
+		4A901ACD2F900EA80006B5D6 /* TASK-007-local-product-data-source.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-007-local-product-data-source.md"; sourceTree = "<group>"; };
+		4A901ACE2F900EA80006B5D6 /* TASK-008-product-repository.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-008-product-repository.md"; sourceTree = "<group>"; };
+		4A901ACF2F900EA80006B5D6 /* TASK-009-search-products-use-case.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-009-search-products-use-case.md"; sourceTree = "<group>"; };
+		4A901AD02F900EA80006B5D6 /* TASK-010-group-products-use-case.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-010-group-products-use-case.md"; sourceTree = "<group>"; };
+		4A901AD12F900EA80006B5D6 /* TASK-011-product-list-viewmodel.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-011-product-list-viewmodel.md"; sourceTree = "<group>"; };
+		4A901AD22F900EA80006B5D6 /* TASK-012-product-row-view.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-012-product-row-view.md"; sourceTree = "<group>"; };
+		4A901AD32F900EA80006B5D6 /* TASK-013-product-section-header-view.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-013-product-section-header-view.md"; sourceTree = "<group>"; };
+		4A901AD42F900EA80006B5D6 /* TASK-014-product-list-view.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-014-product-list-view.md"; sourceTree = "<group>"; };
+		4A901AD52F900EA80006B5D6 /* TASK-015-product-detail-viewmodel.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-015-product-detail-viewmodel.md"; sourceTree = "<group>"; };
+		4A901AD62F900EA80006B5D6 /* TASK-016-product-detail-view.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-016-product-detail-view.md"; sourceTree = "<group>"; };
+		4A901AD72F900EA80006B5D6 /* TASK-017-content-view.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-017-content-view.md"; sourceTree = "<group>"; };
+		4A901AD82F900EA80006B5D6 /* TASK-018-app-entry-point.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-018-app-entry-point.md"; sourceTree = "<group>"; };
+		4A901AD92F900EA80006B5D6 /* TASK-019-product-images.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-019-product-images.md"; sourceTree = "<group>"; };
+		4A901ADA2F900EA80006B5D6 /* TASK-020-build-and-verify.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-020-build-and-verify.md"; sourceTree = "<group>"; };
+		4A901ADB2F900EA80006B5D6 /* TASK-021-search-use-case-tests.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-021-search-use-case-tests.md"; sourceTree = "<group>"; };
+		4A901ADC2F900EA80006B5D6 /* TASK-022-group-use-case-tests.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-022-group-use-case-tests.md"; sourceTree = "<group>"; };
+		4A901ADD2F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-023-dto-mapping-tests.md"; sourceTree = "<group>"; };
+		4A901ADE2F900EA80006B5D6 /* TASK-024-product-repository-tests.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-024-product-repository-tests.md"; sourceTree = "<group>"; };
+		4A901ADF2F900EA80006B5D6 /* TASK-025-viewmodel-tests.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TASK-025-viewmodel-tests.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +93,13 @@
 		4A901AA92F9000C10006B5D6 = {
 			isa = PBXGroup;
 			children = (
+				4A901AE02F900EA80006B5D6 /* tasks */,
+				4A901AC22F9004CE0006B5D6 /* SPEC.md */,
+				4A901AC02F9004600006B5D6 /* PRODUCT_SPEC.md */,
 				4A901AB42F9000C10006B5D6 /* MyProduct */,
 				4A901AB32F9000C10006B5D6 /* Products */,
+				4A901AC42F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md */,
+				4A901B082F901A250006B5D6 /* MyProductTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +109,70 @@
 				4A901AB22F9000C10006B5D6 /* MyProduct.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4A901AE02F900EA80006B5D6 /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				4A901AC62F900EA80006B5D6 /* MASTER.md */,
+				4A901AC72F900EA80006B5D6 /* TASK-001-create-folder-structure.md */,
+				4A901AC82F900EA80006B5D6 /* TASK-002-domain-models.md */,
+				4A901AC92F900EA80006B5D6 /* TASK-003-repository-protocol.md */,
+				4A901ACA2F900EA80006B5D6 /* TASK-004-core-json-loader.md */,
+				4A901ACB2F900EA80006B5D6 /* TASK-005-product-dto.md */,
+				4A901ACC2F900EA80006B5D6 /* TASK-006-products-json.md */,
+				4A901ACD2F900EA80006B5D6 /* TASK-007-local-product-data-source.md */,
+				4A901ACE2F900EA80006B5D6 /* TASK-008-product-repository.md */,
+				4A901ACF2F900EA80006B5D6 /* TASK-009-search-products-use-case.md */,
+				4A901AD02F900EA80006B5D6 /* TASK-010-group-products-use-case.md */,
+				4A901AD12F900EA80006B5D6 /* TASK-011-product-list-viewmodel.md */,
+				4A901AD22F900EA80006B5D6 /* TASK-012-product-row-view.md */,
+				4A901AD32F900EA80006B5D6 /* TASK-013-product-section-header-view.md */,
+				4A901AD42F900EA80006B5D6 /* TASK-014-product-list-view.md */,
+				4A901AD52F900EA80006B5D6 /* TASK-015-product-detail-viewmodel.md */,
+				4A901AD62F900EA80006B5D6 /* TASK-016-product-detail-view.md */,
+				4A901AD72F900EA80006B5D6 /* TASK-017-content-view.md */,
+				4A901AD82F900EA80006B5D6 /* TASK-018-app-entry-point.md */,
+				4A901AD92F900EA80006B5D6 /* TASK-019-product-images.md */,
+				4A901ADA2F900EA80006B5D6 /* TASK-020-build-and-verify.md */,
+				4A901ADB2F900EA80006B5D6 /* TASK-021-search-use-case-tests.md */,
+				4A901ADC2F900EA80006B5D6 /* TASK-022-group-use-case-tests.md */,
+				4A901ADD2F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md */,
+				4A901ADE2F900EA80006B5D6 /* TASK-024-product-repository-tests.md */,
+				4A901ADF2F900EA80006B5D6 /* TASK-025-viewmodel-tests.md */,
+			);
+			path = tasks;
+			sourceTree = "<group>";
+		};
+		4A901B082F901A250006B5D6 /* MyProductTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A901B092F901A290006B5D6 /* Domain */,
+				4A901B0A2F901A290006B5D6 /* Data */,
+				4A901B0B2F901A290006B5D6 /* UI */,
+			);
+			path = MyProductTests;
+			sourceTree = "<group>";
+		};
+		4A901B092F901A290006B5D6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4A901B0A2F901A290006B5D6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4A901B0B2F901A290006B5D6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +239,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A901AC32F9004D40006B5D6 /* SPEC.md in Resources */,
+				4A901AE12F900EA80006B5D6 /* TASK-019-product-images.md in Resources */,
+				4A901AE22F900EA80006B5D6 /* TASK-024-product-repository-tests.md in Resources */,
+				4A901AE32F900EA80006B5D6 /* TASK-005-product-dto.md in Resources */,
+				4A901AE42F900EA80006B5D6 /* TASK-008-product-repository.md in Resources */,
+				4A901AE52F900EA80006B5D6 /* TASK-015-product-detail-viewmodel.md in Resources */,
+				4A901AE62F900EA80006B5D6 /* TASK-003-repository-protocol.md in Resources */,
+				4A901AE72F900EA80006B5D6 /* TASK-011-product-list-viewmodel.md in Resources */,
+				4A901AE82F900EA80006B5D6 /* TASK-012-product-row-view.md in Resources */,
+				4A901AE92F900EA80006B5D6 /* TASK-022-group-use-case-tests.md in Resources */,
+				4A901AEA2F900EA80006B5D6 /* TASK-017-content-view.md in Resources */,
+				4A901AEB2F900EA80006B5D6 /* TASK-010-group-products-use-case.md in Resources */,
+				4A901AEC2F900EA80006B5D6 /* TASK-004-core-json-loader.md in Resources */,
+				4A901AED2F900EA80006B5D6 /* TASK-021-search-use-case-tests.md in Resources */,
+				4A901AEE2F900EA80006B5D6 /* TASK-025-viewmodel-tests.md in Resources */,
+				4A901AEF2F900EA80006B5D6 /* TASK-013-product-section-header-view.md in Resources */,
+				4A901AF02F900EA80006B5D6 /* TASK-014-product-list-view.md in Resources */,
+				4A901AF12F900EA80006B5D6 /* TASK-006-products-json.md in Resources */,
+				4A901AF22F900EA80006B5D6 /* TASK-020-build-and-verify.md in Resources */,
+				4A901AF32F900EA80006B5D6 /* MASTER.md in Resources */,
+				4A901AF42F900EA80006B5D6 /* TASK-018-app-entry-point.md in Resources */,
+				4A901AF52F900EA80006B5D6 /* TASK-009-search-products-use-case.md in Resources */,
+				4A901AF62F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md in Resources */,
+				4A901AF72F900EA80006B5D6 /* TASK-002-domain-models.md in Resources */,
+				4A901AF82F900EA80006B5D6 /* TASK-007-local-product-data-source.md in Resources */,
+				4A901AF92F900EA80006B5D6 /* TASK-016-product-detail-view.md in Resources */,
+				4A901AFA2F900EA80006B5D6 /* TASK-001-create-folder-structure.md in Resources */,
+				4A901AC52F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md in Resources */,
+				4A901AC12F9004700006B5D6 /* PRODUCT_SPEC.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
