@@ -63,7 +63,7 @@ Return:
 | TASK-008 | Implement ProductRepository                      | done    | TASK-003, TASK-007          | [TASK-008](TASK-008-product-repository.md) |
 | TASK-009 | Implement SearchProductsUseCase                  | done    | TASK-002                    | [TASK-009](TASK-009-search-products-use-case.md) |
 | TASK-010 | Implement GroupProductsByCategoryUseCase          | done    | TASK-002                    | [TASK-010](TASK-010-group-products-use-case.md) |
-| TASK-011 | Create ProductListViewModel                      | pending | TASK-008, TASK-009, TASK-010 | [TASK-011](TASK-011-product-list-viewmodel.md) |
+| TASK-011 | Create ProductListViewModel                      | done    | TASK-008, TASK-009, TASK-010 | [TASK-011](TASK-011-product-list-viewmodel.md) |
 | TASK-012 | Create ProductRowView                            | pending | TASK-002                    | [TASK-012](TASK-012-product-row-view.md) |
 | TASK-013 | Create ProductSectionHeaderView                  | pending | TASK-002                    | [TASK-013](TASK-013-product-section-header-view.md) |
 | TASK-014 | Create ProductListView                           | pending | TASK-011, TASK-012, TASK-013 | [TASK-014](TASK-014-product-list-view.md) |
@@ -77,7 +77,7 @@ Return:
 | TASK-022 | Write GroupProductsByCategoryUseCase tests        | done    | TASK-010                    | [TASK-022](TASK-022-group-use-case-tests.md) |
 | TASK-023 | Write ProductDTO mapping tests                   | pending | TASK-005                    | [TASK-023](TASK-023-dto-mapping-tests.md) |
 | TASK-024 | Write ProductRepository tests                    | pending | TASK-008                    | [TASK-024](TASK-024-product-repository-tests.md) |
-| TASK-025 | Write ProductListViewModel tests                 | pending | TASK-011                    | [TASK-025](TASK-025-viewmodel-tests.md) |
+| TASK-025 | Write ProductListViewModel tests                 | done    | TASK-011                    | [TASK-025](TASK-025-viewmodel-tests.md) |
 
 ---
 
