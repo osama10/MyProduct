@@ -9,11 +9,11 @@ Create the ViewModel that coordinates fetching products and piping them through 
 ## Scope - What to Implement
 - Create `MyProduct/UI/ProductList/ProductListViewModel.swift`
   - `@Observable @MainActor` class
-  - Holds all products (fetched from repository)
+  - Uses a `ViewState` enum to represent view stages: `.idle`, `.loading`, `.success([Product])`, `.error(String)`
   - Holds search text (bound to the search bar)
   - Computes displayed categories by piping through: search use case -> grouping use case
   - Provides a method to load products from the repository
-  - Handles loading and error states
+  - State transitions: idle -> loading -> success/error
 
 ## Out of Scope
 - Do NOT create any views
