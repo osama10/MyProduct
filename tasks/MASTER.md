@@ -60,7 +60,7 @@ Return:
 | TASK-017 | Wire up ContentView with NavigationStack         | done    | TASK-014, TASK-016          | [TASK-017](TASK-017-content-view.md) |
 | TASK-018 | Wire up MyProductApp with dependency injection   | done    | TASK-017                    | [TASK-018](TASK-018-app-entry-point.md) |
 | TASK-019 | Add product images to Assets                     | done    | TASK-006                    | [TASK-019](TASK-019-product-images.md) |
-| TASK-020 | Build and verify the project compiles            | pending | TASK-018, TASK-019          | [TASK-020](TASK-020-build-and-verify.md) |
+| TASK-020 | Build and verify the project compiles            | done    | TASK-018, TASK-019          | [TASK-020](TASK-020-build-and-verify.md) |
 | TASK-021 | Write SearchProductsUseCase tests                | done    | TASK-009                    | [TASK-021](TASK-021-search-use-case-tests.md) |
 | TASK-022 | Write GroupProductsByCategoryUseCase tests        | done    | TASK-010                    | [TASK-022](TASK-022-group-use-case-tests.md) |
 | TASK-023 | Write ProductDTO mapping tests                   | pending | TASK-005                    | [TASK-023](TASK-023-dto-mapping-tests.md) |
