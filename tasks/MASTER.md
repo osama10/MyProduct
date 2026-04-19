@@ -63,8 +63,8 @@ Return:
 | TASK-020 | Build and verify the project compiles            | done    | TASK-018, TASK-019          | [TASK-020](TASK-020-build-and-verify.md) |
 | TASK-021 | Write SearchProductsUseCase tests                | done    | TASK-009                    | [TASK-021](TASK-021-search-use-case-tests.md) |
 | TASK-022 | Write GroupProductsByCategoryUseCase tests        | done    | TASK-010                    | [TASK-022](TASK-022-group-use-case-tests.md) |
-| TASK-023 | Write ProductDTO mapping tests                   | pending | TASK-005                    | [TASK-023](TASK-023-dto-mapping-tests.md) |
-| TASK-024 | Write ProductRepository tests                    | pending | TASK-008                    | [TASK-024](TASK-024-product-repository-tests.md) |
+| TASK-023 | Write ProductDTO mapping tests                   | done    | TASK-005                    | [TASK-023](TASK-023-dto-mapping-tests.md) |
+| TASK-024 | Write ProductRepository tests                    | done    | TASK-008                    | [TASK-024](TASK-024-product-repository-tests.md) |
 | TASK-025 | Write ProductListViewModel tests                 | done    | TASK-011                    | [TASK-025](TASK-025-viewmodel-tests.md) |
 
 ---
