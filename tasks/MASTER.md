@@ -22,18 +22,6 @@
    - Mark the task as **done** in this file
    - Move to the next task
 
-### Prompt for running Task
-10. Whenever running the task, use the following prompt
-
-Read these files first:
-- CLAUDE.md
-- PRODUCT_SPEC.md
-- IMPLEMENTATION_PLAN.md
-
-Then identify the first pending task.
-
-Read that task file and implement only that task.
-
 Rules:
 - Do not work on any other task
 - Do not anticipate future tasks
