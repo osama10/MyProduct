@@ -8,27 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var viewModel: ProductListViewModel
-
-    init(viewModel: ProductListViewModel) {
-        self.viewModel = viewModel
-    }
+    let container: DIContainer
 
     var body: some View {
         NavigationStack {
-            ProductListView(viewModel: viewModel)
+            ProductListView(container: container)
         }
     }
 }
 
 #Preview {
-    ContentView(
-        viewModel: ProductListViewModel(
-            repository: ProductRepository(
-                dataSource: LocalProductDataSource()
-            ),
-            searchUseCase: SearchProductsUseCase(),
-            groupUseCase: GroupProductsByCategoryUseCase()
-        )
-    )
+    ContentView(container: DIContainer())
 }

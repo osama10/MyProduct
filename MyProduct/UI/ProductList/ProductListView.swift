@@ -1,7 +1,15 @@
 import SwiftUI
 
 struct ProductListView: View {
-    @Bindable var viewModel: ProductListViewModel
+    @State private var viewModel: ProductListViewModel
+
+    init(container: DIContainer) {
+        self.viewModel = ProductListViewModel(
+            repository: container.repository,
+            searchUseCase: container.searchUseCase,
+            groupUseCase: container.groupUseCase
+        )
+    }
 
     var body: some View {
         Group {
@@ -50,17 +58,6 @@ struct ProductListView: View {
 
 #Preview {
     NavigationStack {
-        ProductListView(
-            viewModel: {
-                let viewModel = ProductListViewModel(
-                    repository: ProductRepository(
-                        dataSource: LocalProductDataSource()
-                    ),
-                    searchUseCase: SearchProductsUseCase(),
-                    groupUseCase: GroupProductsByCategoryUseCase()
-                )
-                return viewModel
-            }()
-        )
+        ProductListView(container: DIContainer())
     }
 }
