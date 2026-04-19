@@ -38,8 +38,9 @@ struct ProductListView: View {
         }
         .navigationTitle("Products")
         .navigationDestination(for: Product.self) { product in
-            // Placeholder until TASK-016 implements ProductDetailView
-            Text(product.name)
+            ProductDetailView(
+                viewModel: ProductDetailViewModel(product: product)
+            )
         }
         .task {
             await viewModel.loadProducts()

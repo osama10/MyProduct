@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var viewModel: ProductListViewModel
+
+    init(viewModel: ProductListViewModel) {
+        self.viewModel = viewModel
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            ProductListView(viewModel: viewModel)
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(
+        viewModel: ProductListViewModel(
+            repository: ProductRepository(
+                dataSource: LocalProductDataSource()
+            ),
+            searchUseCase: SearchProductsUseCase(),
+            groupUseCase: GroupProductsByCategoryUseCase()
+        )
+    )
 }
