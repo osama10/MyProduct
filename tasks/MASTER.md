@@ -58,7 +58,7 @@ Return:
 | TASK-015 | Create ProductDetailViewModel                    | done    | TASK-002                    | [TASK-015](TASK-015-product-detail-viewmodel.md) |
 | TASK-016 | Create ProductDetailView                         | done    | TASK-015                    | [TASK-016](TASK-016-product-detail-view.md) |
 | TASK-017 | Wire up ContentView with NavigationStack         | done    | TASK-014, TASK-016          | [TASK-017](TASK-017-content-view.md) |
-| TASK-018 | Wire up MyProductApp with dependency injection   | pending | TASK-017                    | [TASK-018](TASK-018-app-entry-point.md) |
+| TASK-018 | Wire up MyProductApp with dependency injection   | done    | TASK-017                    | [TASK-018](TASK-018-app-entry-point.md) |
 | TASK-019 | Add product images to Assets                     | pending | TASK-006                    | [TASK-019](TASK-019-product-images.md) |
 | TASK-020 | Build and verify the project compiles            | pending | TASK-018, TASK-019          | [TASK-020](TASK-020-build-and-verify.md) |
 | TASK-021 | Write SearchProductsUseCase tests                | done    | TASK-009                    | [TASK-021](TASK-021-search-use-case-tests.md) |
