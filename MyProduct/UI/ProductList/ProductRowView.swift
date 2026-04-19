@@ -5,9 +5,8 @@ struct ProductRowView: View {
 
     var body: some View {
         HStack {
-            Image(decorative: product.imageName)
-                .resizable()
-                .scaledToFill()
+            Image(systemName: product.imageName)
+                .font(.title2)
                 .frame(width: 56, height: 56)
                 .background(.quaternary)
                 .clipShape(.rect(cornerRadius: 8))
@@ -31,6 +30,7 @@ struct ProductRowView: View {
             id: "preview-001",
             name: "Wireless Headphones",
             imageName: "headphones",
+
             price: 79.99,
             description: "Premium over-ear wireless headphones with active noise cancellation and 30-hour battery life.",
             category: "Electronics"

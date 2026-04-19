@@ -6,9 +6,9 @@ struct ProductDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 12) {
-                Image(decorative: viewModel.product.imageName)
-                    .resizable()
-                    .scaledToFit()
+                Image(systemName: viewModel.product.imageName)
+                    .font(.system(size: 80))
+                    .frame(maxWidth: .infinity, minHeight: 200)
                     .background(.quaternary)
                     .clipShape(.rect(cornerRadius: 12))
 
@@ -35,6 +35,7 @@ struct ProductDetailView: View {
                     id: "preview-001",
                     name: "Wireless Headphones",
                     imageName: "headphones",
+
                     price: 79.99,
                     description: "Premium over-ear wireless headphones with active noise cancellation and 30-hour battery life.",
                     category: "Electronics"

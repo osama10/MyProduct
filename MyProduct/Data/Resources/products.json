@@ -10,7 +10,7 @@
     {
         "id": "elec-002",
         "name": "Portable Bluetooth Speaker",
-        "imageName": "speaker",
+        "imageName": "hifispeaker",
         "price": 49.99,
         "description": "Compact waterproof speaker with rich bass and 12-hour playtime. Perfect for outdoor adventures.",
         "category": "Electronics"
@@ -18,7 +18,7 @@
     {
         "id": "elec-003",
         "name": "Smart Watch",
-        "imageName": "smartwatch",
+        "imageName": "applewatch",
         "price": 199.99,
         "description": "Fitness tracking smartwatch with heart rate monitor, GPS, and always-on display.",
         "category": "Electronics"
@@ -26,7 +26,7 @@
     {
         "id": "cloth-001",
         "name": "Denim Jacket",
-        "imageName": "denim_jacket",
+        "imageName": "tshirt",
         "price": 89.99,
         "description": "Classic medium-wash denim jacket with a modern slim fit. Made from durable cotton blend.",
         "category": "Clothing"
@@ -34,7 +34,7 @@
     {
         "id": "cloth-002",
         "name": "Running Shoes",
-        "imageName": "running_shoes",
+        "imageName": "shoe",
         "price": 129.99,
         "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper.",
         "category": "Clothing"
@@ -42,7 +42,7 @@
     {
         "id": "book-001",
         "name": "Swift Programming Guide",
-        "imageName": "book_swift",
+        "imageName": "book",
         "price": 39.99,
         "description": "Comprehensive guide to modern Swift development covering concurrency, SwiftUI, and best practices.",
         "category": "Books"
@@ -50,7 +50,7 @@
     {
         "id": "book-002",
         "name": "Design Patterns",
-        "imageName": "book_patterns",
+        "imageName": "book.closed",
         "price": 44.99,
         "description": "Timeless reference on software design patterns with practical examples and real-world applications.",
         "category": "Books"
@@ -58,7 +58,7 @@
     {
         "id": "home-001",
         "name": "Ceramic Plant Pot",
-        "imageName": "plant_pot",
+        "imageName": "leaf",
         "price": 24.99,
         "description": "Handcrafted ceramic pot with drainage hole and saucer. Ideal for indoor plants.",
         "category": "Home"
@@ -66,7 +66,7 @@
     {
         "id": "home-002",
         "name": "Scented Candle Set",
-        "imageName": "candle_set",
+        "imageName": "flame",
         "price": 34.99,
         "description": "Set of three soy wax candles in lavender, vanilla, and cedarwood scents. Burns for up to 40 hours each.",
         "category": "Home"
@@ -74,7 +74,7 @@
     {
         "id": "home-003",
         "name": "Throw Blanket",
-        "imageName": "throw_blanket",
+        "imageName": "bed.double",
         "price": 59.99,
         "description": "Ultra-soft knitted throw blanket in a neutral tone. Perfect for cozy evenings on the couch.",
         "category": "Home"
