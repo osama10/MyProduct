@@ -3,6 +3,7 @@ import Testing
 @testable import MyProduct
 
 @Suite("SearchProductsUseCase Tests")
+@MainActor
 struct SearchProductsUseCaseTests {
 
     private let sut = SearchProductsUseCase()

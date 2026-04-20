@@ -3,6 +3,7 @@ import Testing
 @testable import MyProduct
 
 @Suite("ProductRepository Tests")
+@MainActor
 struct ProductRepositoryTests {
 
     // MARK: - Mock Data Source
