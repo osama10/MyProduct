@@ -36,6 +36,7 @@
 		4A901AF82F900EA80006B5D6 /* TASK-007-local-product-data-source.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901ACD2F900EA80006B5D6 /* TASK-007-local-product-data-source.md */; };
 		4A901AF92F900EA80006B5D6 /* TASK-016-product-detail-view.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AD62F900EA80006B5D6 /* TASK-016-product-detail-view.md */; };
 		4A901AFA2F900EA80006B5D6 /* TASK-001-create-folder-structure.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A901AC72F900EA80006B5D6 /* TASK-001-create-folder-structure.md */; };
+		4A90212C2F96AF8F0006B5D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A90212B2F96AF8F0006B5D6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		4A901B2A2F902C5E0006B5D6 /* invalid_test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = invalid_test.json; sourceTree = "<group>"; };
 		4A901B2B2F902C750006B5D6 /* JSONLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoaderTests.swift; sourceTree = "<group>"; };
 		4A901B302F902D6B0006B5D6 /* MyProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A90212B2F96AF8F0006B5D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -127,6 +129,7 @@
 				4A901AB32F9000C10006B5D6 /* Products */,
 				4A901AC42F9005CF0006B5D6 /* IMPLEMENTATION_PLAN.md */,
 				4A901B082F901A250006B5D6 /* MyProductTests */,
+				4A90212B2F96AF8F0006B5D6 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,6 +337,7 @@
 				4A901AF12F900EA80006B5D6 /* TASK-006-products-json.md in Resources */,
 				4A901AF22F900EA80006B5D6 /* TASK-020-build-and-verify.md in Resources */,
 				4A901AF32F900EA80006B5D6 /* MASTER.md in Resources */,
+				4A90212C2F96AF8F0006B5D6 /* README.md in Resources */,
 				4A901AF42F900EA80006B5D6 /* TASK-018-app-entry-point.md in Resources */,
 				4A901AF52F900EA80006B5D6 /* TASK-009-search-products-use-case.md in Resources */,
 				4A901AF62F900EA80006B5D6 /* TASK-023-dto-mapping-tests.md in Resources */,
